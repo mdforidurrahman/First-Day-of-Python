@@ -20,3 +20,24 @@ print(f'serial of character: {sorted(y)[::-1]}')
 print(f'Total LENGTH is: {len(x)}')
 print(f'same number count: {x.count(5)}')
 
+
+a = [23, 56, 87, 90, 265, 98, 79]
+print(a)
+
+a.pop()
+print(a)
+
+a.remove(265)
+print(a)
+
+a.append('rahim')
+print(a)
+
+a.insert(2, 'karim')
+print(a)
+
+b = []
+print(b)
+
+a.clear()
+print(a)
