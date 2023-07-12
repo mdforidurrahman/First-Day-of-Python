@@ -1,0 +1,22 @@
+
+x = [4, 5, 6, 12, 34, 53, 56, 75, 32, 435, 7678, 5, 10, 24, 89, 5]
+
+print(x)
+print(f'In total list addition is: {sum(x)}')
+
+#maximum & minimum number print
+print(f'Max number is: {max(x)}')
+print(f'Minimum number is: {min(x)}')
+
+# Higher to Lower Number and Lower to Higher Number
+print(f'Higher to Lower Number: {sorted(x)}')
+print(f'Lower to Higher Number: {sorted(x)[::-1]}')
+
+y = ['Forid', 'Sabbir', 'Abdur Rahman', 'Musa', 'Sumon']
+print(f'serial of character: {sorted(y)}')
+print(f'serial of character: {sorted(y)[::-1]}')
+
+#len & count function
+print(f'Total LENGTH is: {len(x)}')
+print(f'same number count: {x.count(5)}')
+
