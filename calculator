@@ -1,0 +1,21 @@
+# calculator
+
+from math import sqrt
+
+
+num1 = int(input('Enter your 1st number: '))
+
+opp = input('Enter your operator: ')
+
+num2 = int(input('Enter your 2nd number: '))
+
+if opp == '+':
+    print(f'{num1} + {num2} = ', num1 + num2)
+elif opp == '-':
+    print(f'{num1} - {num2} = ', num1 - num2)
+elif opp == '*':
+    print(f'{num1} * {num2} = ', num1 * num2)
+elif opp == '/':
+    print(f'{num1} / {num2} = ', num1 / num2)
+else:
+    print(" invalid operator... ")
