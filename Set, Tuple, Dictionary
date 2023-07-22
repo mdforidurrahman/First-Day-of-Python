@@ -1,0 +1,50 @@
+# set
+
+newSet = {'HTML', 'CSS', "JavaScript", 'Python', 'Django', 'SQL', 25, True, False }
+newSet2 = {'Laravel', 'MySQL'}
+
+print(newSet)
+
+print(type(newSet))
+
+newSet.add('PHP')
+
+print(newSet)
+
+newSet.remove('JavaScript')
+
+print(newSet)
+
+newSet.update(newSet2)
+
+print(newSet)
+
+
+# Tuple
+
+newTuple = ('GraphicDesign', 'DigitalMarketing', 'Web design & Development', 5, True)
+
+print(newTuple)
+
+newTuple2 = list(newTuple)
+
+print(newTuple2)
+
+newTuple2.append(False)
+
+print(newTuple2)
+
+newTuple = tuple(newTuple2)
+
+print(newTuple)
+
+# Dictionary
+
+dict1 = {
+    'name': 'Foridur Rahman',
+    'age': '27'
+    }
+
+print(dict1)
+
+print(type(dict1))
