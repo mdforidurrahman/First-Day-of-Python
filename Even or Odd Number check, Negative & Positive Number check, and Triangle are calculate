@@ -1,0 +1,30 @@
+#Triangle height calculation
+
+height = float(input('Enter height: '))
+
+base = float(input('Enter base: '))
+
+result = 0.5 *  height * base
+
+print(result)
+
+#check the number positive, negative, or Zero
+
+num1= int(input('Enter number with posotive, negetive or zero: '))
+
+if num1>0:
+    print('Positive Number')
+elif num1==0:
+    print:('Zero Number')
+else:
+    print('Negative Number')
+
+
+#Even & Odd Number
+
+num1= int(input('Enter number : '))
+
+if num1%2 == 0:
+    print('Ever')
+else:
+    print('Odd')
