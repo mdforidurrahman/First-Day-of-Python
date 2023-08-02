@@ -1,0 +1,29 @@
+#print 1-10 using for loop
+
+for j in range(11):
+    print(j)
+
+for i in range(1,11):
+  print(i)
+
+#print 1-100 using for loop with increment 2 (Odd number)
+
+for k in range(1,101,2):
+  print(k)
+
+
+#print 1-100 using for loop with increment 2 (Even number)
+
+for i in range(2,101,2):
+  print(i)
+
+
+#print 1-10 revarse using for loop
+
+for i in range(10, 0, -1):
+  print(i)
+
+#print 10-1 decrement 2 using for loop
+
+for l in range(10, 0, -2):
+  print(l)
