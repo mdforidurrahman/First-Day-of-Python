@@ -1,0 +1,2 @@
+Calculator= int(eval(input('enter you value:')))
+print(Calculator)
